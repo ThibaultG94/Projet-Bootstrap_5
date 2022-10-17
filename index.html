@@ -25,13 +25,13 @@
     </header>
 
     <main>
-        <section class="my-5">
+        <section id="johndoe" class="my-5">
             <div class="container">
-                <div class="row gy-4 gy-md-0">
+                <div class="row gy-4 align-items-center">
                     <div class="col-12 col-md-6">
-                        <h1>Je suis John Doe Développeur et Designer Web</h1>
-                        <h2>Bienvenue dans mon univers créatif</h2>
-                        <button class="btn btn-primary" href="#" role="button">Mon expertise Web</button>
+                        <h1 class="fw-bold">Je suis John Doe Développeur et Designer Web</h1>
+                        <h2 class="fw-light">Bienvenue dans mon univers créatif</h2>
+                        <a class="btn btn-primary mt-5" href="#expertise">Mon expertise Web</a>
                     </div>
                     <div class="col-12 col-md-6">
                         <img src="./img/portrait.jpg" alt="Photo de John Doe" class="w-100">
@@ -40,11 +40,11 @@
             </div>
         </section>
 
-        <section class="py-5 bg-light">
+        <section id="expertise" class="py-5 bg-light">
             <div class="container">
-                <h2>Mon expertise</h2>
-                <h3>Développement web et design</h3>
-                <div class="row gy-4 mt-5">
+                <h2 class="mb-0">Mon expertise</h2>
+                <h3 class="fw-light fs-5">Développement web et design</h3>
+                <div class="row gy-4 mt-4">
                     <div class="col-12 col-md-7">
                         <div class="bg-secondary h-100 w-100 py-5">
                         </div>
@@ -65,10 +65,10 @@
             </div>
         </section>
 
-        <section class="py-5">
+        <section id="portfolio" class="py-5">
             <div class="container">
-                <h2>Mon portfolio</h2>
-                <h3>Projets perso et pro</h3>
+                <h2 class="mb-0">Mon portfolio</h2>
+                <h3 class="fw-light fs-5">Projets perso et pro</h3>
                 <div class="row gy-4 mt-4">
                     <div class="col-3">
                         <div class="bg-secondary h-100 w-100 py-5">
@@ -90,12 +90,12 @@
             </div>
         </section>
 
-        <section class="py-5 bg-light">
+        <section id="contact" class="py-5 bg-light">
             <div class="container">
-                <h2>Un projet de création web ?</h2>
-                <h3>Allons en discuter autour d'un café</h3>
+                <h2 class="mb-0">Un projet de création web ?</h2>
+                <h3 class="fw-light fs-5">Allons en discuter autour d'un café</h3>
 
-                <div class="row gy-4 mt-5">
+                <div class="row gy-4 mt-4">
                     <div class="col-12 col-md-5">
                         <img src="./img/grab-a-coffee.jpg" alt="tasse de café" width="100%">
                     </div>
@@ -110,15 +110,27 @@
 
     <footer class="border-top">
         <div class="container py-5">
-            <div class="row gy-4">
+            <div class="row gy-4 align-items-center">
                 <div class="col-12 col-md-4">
-                    <div class="bg-secondary py-5"></div>
+                    <a href="#" class="navbar-brand-text-dark text-uppercase fw-bold">
+                        <span class="bg-primary bg-gradient p-1 rounded-3 text-light">John</span> Doe
+                    </a>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="bg-secondary py-5"></div>
+                <div class="col-12 col-md-4 text-md-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-decoration-none text-dark">Mentions légales</a></li>
+                    </ul>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="bg-secondary py-5"></div>
+                <div class="col-12 col-md-4 text-md-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-dark">
+                                <i class="bi bi-instagram"></i>
+                            </a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-dark"><i
+                                    class="bi bi-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-decoration-none text-dark"><i
+                                    class="bi bi-twitter"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
